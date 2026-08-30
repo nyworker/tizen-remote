@@ -26,7 +26,7 @@ Override via environment variables:
 |---|---|---|
 | `TV_IP` | `192.168.86.30` | TV's LAN IP address |
 | `TV_MAC` | `F8:4E:58:0A:B7:E4` | TV's MAC address, for wake-on-LAN |
-| `CLIENT_NAME` | `Steve local remote` | Name shown on the TV's pairing prompt |
+| `CLIENT_NAME` | `User1 local remote` | Name shown on the TV's pairing prompt |
 | `BOOT_TIMEOUT` | `60` | Seconds to wait for the TV to come back online |
 | `PAIR_TIMEOUT` | `20` | Seconds to wait for you to tap Allow on the TV |
 | `TOKEN_FILE` | `.tv_token` next to the script | Where the pairing token is cached |

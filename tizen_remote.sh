@@ -7,7 +7,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 TV_IP="${TV_IP:-192.168.86.30}"
 TV_MAC="${TV_MAC:-F8:4E:58:0A:B7:E4}"
-CLIENT_NAME="${CLIENT_NAME:-Steve local remote}"
+CLIENT_NAME="${CLIENT_NAME:-User1 local remote}"
 WS_PORT=8002
 HTTP_PORT=8001
 BOOT_TIMEOUT="${BOOT_TIMEOUT:-60}"     # seconds to wait for the TV to come back online
